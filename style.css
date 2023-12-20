@@ -1,0 +1,1022 @@
+.main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1170px;
+    margin: 0 auto;
+    background: #f5f8fa;
+    overflow: hidden;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1360px;
+    height: 41px;
+    margin: 28px 0 0 40px;
+    z-index: 3;
+  }
+  .pic {
+    flex-shrink: 0;
+    position: relative;
+    width: 200px;
+    height: 39px;
+    background: url(./images/wppusher-logo\ copy.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .box {
+    flex-shrink: 0;
+    position: relative;
+    width: 476px;
+    height: 40px;
+    z-index: 3;
+    overflow: hidden;
+  }
+  .section {
+    position: absolute;
+    width: 19.12%;
+    height: 100%;
+    top: 0;
+    left: 80.88%;
+    font-size: 0px;
+    z-index: 8;
+    overflow: hidden;
+  }
+  .text {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 11px 0 0 19px;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 10;
+  }
+  .box-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 2px solid #646e7a;
+    z-index: 9;
+    border-radius: 6px;
+  }
+  .text-2 {
+    position: absolute;
+    width: 13.66%;
+    height: 17px;
+    top: calc(50% - 9px);
+    left: 0;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 4;
+  }
+  .text-3 {
+    position: absolute;
+    height: 17px;
+    top: calc(50% - 9px);
+    left: 22.48%;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 5;
+  }
+  .text-4 {
+    position: absolute;
+    height: 17px;
+    top: calc(50% - 9px);
+    left: 47.06%;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 6;
+  }
+  .text-5 {
+    position: absolute;
+    height: 17px;
+    top: calc(50% - 9px);
+    left: 65.34%;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 7;
+  }
+  .group {
+    position: relative;
+    width: 1358px;
+    height: 2px;
+    margin: 30px 0 0 42px;
+    background: #e0e5e9;
+    z-index: 2;
+  }
+  .box-3 {
+    position: relative;
+    width: 898px;
+    height: 795px;
+    margin: 85px 0 0 256px;
+    z-index: 80;
+  }
+  .box-4 {
+    position: absolute;
+    width: 312px;
+    height: 795px;
+    top: 0;
+    left: 586px;
+    background: #1179bf;
+    z-index: 24;
+    border-radius: 0 6px 6px 0;
+  }
+  .group-2 {
+    position: relative;
+    width: 231px;
+    height: 152px;
+    margin: 42px 0 0 44px;
+    font-size: 0px;
+    z-index: 26;
+    overflow: hidden;
+  }
+  .text-6 {
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 0 0 0 2px;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 27;
+  }
+  .wrapper-2 {
+    position: relative;
+    width: 140px;
+    height: 72px;
+    margin: 5px 0 0 0;
+    z-index: 28;
+    overflow: hidden;
+  }
+  .section-2 {
+    position: absolute;
+    width: 121px;
+    height: 72px;
+    top: 50%;
+    left: 14.29%;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.063px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    transform: translate(0, -50%);
+    z-index: 29;
+  }
+  .text-7 {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-8 {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .label {
+    width: 121px;
+    height: 72px;
+  }
+  
+  .label .element-year {
+    position: fixed;
+    width: 116px;
+    height: 46px;
+    top: 0;
+    left: 0;
+  }
+  
+  .text-9 {
+    position: absolute;
+    height: 29px;
+    top: calc(50% - 23px);
+    left: 0;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 30;
+  }
+  .text-a {
+    display: block;
+    position: relative;
+    width: 229px;
+    height: 48px;
+    margin: 3px 0 0 2px;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+    z-index: 31;
+  }
+  .box-5 {
+    position: relative;
+    width: 170px;
+    height: 96px;
+    margin: 36px 0 0 45px;
+    z-index: 32;
+    overflow: hidden;
+  }
+  .box-6 {
+    position: absolute;
+    width: 82.94%;
+    height: 96px;
+    top: 50%;
+    left: 18.24%;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+    transform: translate(0, -50%);
+    z-index: 33;
+  }
+  .text-b {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-c {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-d {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .box-7 {
+    position: absolute;
+    width: 11.76%;
+    height: 95.83%;
+    top: 1.04%;
+    left: 0;
+    z-index: 36;
+  }
+  .pic-2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 0;
+    background: url(./images/Combined\ Shape\ Copy.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 34;
+  }
+  .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 16px 0 0 0;
+    background: url(./images/Combined\ Shape\ Copy.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 35;
+  }
+  .img-2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 16px 0 0 0;
+    background: url(./images/Combined\ Shape\ Copy.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 36;
+  }
+  .wrapper-3 {
+    position: relative;
+    width: 184px;
+    height: 51px;
+    margin: 38px 0 0 46px;
+    z-index: 37;
+    overflow: hidden;
+  }
+  .section-3 {
+    position: relative;
+    width: 186px;
+    height: 50px;
+    margin: 0 0 0 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 38;
+  }
+  .text-e {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-f {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-10 {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-11 {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-12 {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-13 {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-14 {
+    position: relative;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .group-3 {
+    position: relative;
+    width: 180px;
+    height: 4px;
+    margin: -15px 0 0 0;
+    background: #b9f5ff;
+    opacity: 0.503566563129425;
+    z-index: 39;
+  }
+  .wrapper-4 {
+    position: relative;
+    width: 229px;
+    height: 196px;
+    margin: 41px 0 0 44px;
+    z-index: 40;
+    overflow: hidden;
+  }
+  .section-4 {
+    position: relative;
+    width: 224px;
+    height: 2px;
+    margin: 0 0 0 0;
+    background: #ffffff;
+    opacity: 0.2005208283662796;
+    z-index: 44;
+  }
+  .section-5 {
+    position: relative;
+    width: 227px;
+    height: 96px;
+    margin: 41px 0 0 2px;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+    z-index: 41;
+  }
+  .text-15 {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-16 {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-17 {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .pic-3 {
+    position: absolute;
+    width: 17.47%;
+    height: 20.41%;
+    top: 79.59%;
+    left: 0;
+    background: url(./images/Bitmap.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 42;
+    border-radius: 20px;
+  }
+  .text-18 {
+    position: absolute;
+    height: 19px;
+    top: calc(50% - -68px);
+    left: 23.58%;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 43;
+  }
+  .group-4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 90px;
+    left: 0;
+    z-index: 80;
+    overflow: hidden;
+  }
+  .img-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 65px;
+    left: 55px;
+    background: url(./images/1.png)
+      no-repeat center; 
+    background-size: cover;
+    z-index: 76;
+    border-radius: 50%;
+  }
+
+  .wrapper-5 {
+    position: absolute;
+    width: 580px;
+    height: 2px;
+    top: 119px;
+    left: 6px;
+    background: #f5f7fa;
+    z-index: 78;
+  }
+  .text-1a {
+    position: absolute;
+    height: 32px;
+    top: 157px;
+    left: 95px;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.16px;
+    z-index: 73;
+  }
+  .text-1b {
+    position: absolute;
+    height: 17px;
+    top: 198px;
+    left: 55px;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 63;
+  }
+  .text-1c {
+    position: absolute;
+    height: 17px;
+    top: 198px;
+    left: 312px;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 71;
+  }
+  .section-6 {
+    position: absolute;
+    width: 227px;
+    height: 36px;
+    top: 222px;
+    left: 55px;
+    background: #edeff2;
+    z-index: 61;
+    border-radius: 4px;
+  }
+  .text-1d {
+    position: absolute;
+    height: 17px;
+    top: 9px;
+    left: 13px;
+    font-family: "Lato-Light", Helvetica;
+    color: #646e7a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 62;
+  }
+  .group-5 {
+    position: absolute;
+    width: 226px;
+    height: 36px;
+    top: 222px;
+    left: 312px;
+    background: #edeff2;
+    z-index: 69;
+    border-radius: 4px;
+  }
+  .text-1e {
+    position: absolute;
+    height: 17px;
+    top: 9px;
+    left: 13px;
+    font-family: "Lato-Light", Helvetica;
+    color: #646e7a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 70;
+  }
+  .text-1f {
+    position: absolute;
+    height: 17px;
+    top: 273px;
+    left: 55px;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 67;
+  }
+  .box-8 {
+    position: absolute;
+    width: 370px;
+    height: 36px;
+    top: 297px;
+    left: 55px;
+    background: #edeff2;
+    z-index: 65;
+    border-radius: 5px;
+  }
+  .text-20 {
+    position: absolute;
+    height: 17px;
+    top: 9px;
+    left: 13px;
+    font-family: "Lato-Light", Helvetica;
+    color: #646e7a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 66;
+  }
+  .group-6 {
+    position: absolute;
+    width: 580px;
+    height: 2px;
+    top: 374px;
+    left: 6px;
+    background: #f5f7fa;
+    z-index: 59;
+  }
+  .pic-4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 409px;
+    left: 55px;
+    background: url(./images/2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 57;
+    border-radius: 50%;
+  }
+  .text-21 {
+    position: absolute;
+    height: 22px;
+    top: 411px;
+    left: 95px;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.16px;
+    z-index: 54;
+  }
+  
+  .text-23 {
+    position: absolute;
+    height: 17px;
+    top: 460px;
+    left: 55px;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 52;
+  }
+  .group-7 {
+    position: absolute;
+    width: 483px;
+    height: 36px;
+    top: 484px;
+    left: 55px;
+    background: #edeff2;
+    z-index: 48;
+    border-radius: 4px;
+  }
+  .text-24 {
+    position: absolute;
+    height: 17px;
+    top: 9px;
+    left: 13px;
+    font-family: "Lato-Light", Helvetica;
+    color: #646e7a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 49;
+  }
+  .text-25 {
+    position: absolute;
+    width: 154px;
+    height: 17px;
+    top: 9px;
+    left: 262px;
+    font-family: "Lato-Light", Helvetica;
+    color: #646e7a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 50;
+  }
+  .text-26 {
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    top: 9px;
+    left: 431px;
+    font-family: "Lato-Light", Helvetica;
+    color: #646e7a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 51;
+  }
+  .box-9 {
+    position: absolute;
+    width: 580px;
+    height: 2px;
+    top: 561px;
+    left: 6px;
+    background: #f5f7fa;
+    z-index: 46;
+  }
+  .box-a {
+    position: absolute;
+    width: 483px;
+    height: 52px;
+    top: 602px;
+    left: 55px;
+    background: #038e7d;
+    z-index: 16;
+    border-radius: 5px;
+  }
+  .text-27 {
+    position: absolute;
+    width: 483px;
+    height: 22px;
+    top: 13px;
+    left: 0;
+    font-family: "Lato-Light", Helvetica;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: -0.4px;
+    z-index: 17;
+  }
+  .img-4 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 677px;
+    left: 130px;
+    background: url(./images/Mask.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 21;
+  }
+  .section-7 {
+    position: absolute;
+    width: 303px;
+    height: 16px;
+    top: 678px;
+    left: 160px;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    letter-spacing: -0.01px;
+    z-index: 20;
+  }
+  .text-28 {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #1d2c3c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.406px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .text-29 {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #646e7a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.406px;
+    text-align: left;
+    letter-spacing: -0.01px;
+  }
+  .pic-5 {
+    position: absolute;
+    width: 92px;
+    height: 20.101px;
+    top: 728px;
+    left: 252px;
+    background: url(./images/powered_by_stripe.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 22;
+  }
+  .wrapper-6 {
+    position: relative;
+    width: 867px;
+    height: 17px;
+    margin: 33px 0 0 287px;
+    font-family: "Lato-Light", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .text-2a {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #636b6f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+  }
+  .text-2b {
+    position: relative;
+    font-family: "Lato-Light", Helvetica;
+    color: #31708f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+  }
+  .wrapper-7 {
+    position: absolute;
+    width: 892px;
+    height: 795px;
+    top: 186px;
+    left: 262px;
+    background: #ffffff;
+    z-index: 12;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.05);
+  }
+  .text-2c {
+    position: absolute;
+    width: 161px;
+    height: 54px;
+    top: 227px;
+    left: 310px;
+    font-family: "Lato-Regular", Helvetica;
+    color: #1d2c3c;
+    text-shadow: 0px 4px 4px #00000040;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 79;
+    letter-spacing: 0;
+  }
+  
